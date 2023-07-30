@@ -1,0 +1,11 @@
+.btn {
+  padding: 20px 35px;
+  color: #fff !important;
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 5px 5px;
+    font-size: 12px;
+  }
+}

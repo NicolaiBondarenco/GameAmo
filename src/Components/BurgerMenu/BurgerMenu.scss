@@ -1,0 +1,30 @@
+.burgerMenu {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-100%);
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 88%;
+  background-color: #000;
+  padding: 100px 50px;
+  transition: visibility 0s linear 0.5s, opacity 0.5s, transform 0.5s;
+}
+
+.burgerMenu.active {
+  height: 100vh;
+  z-index: 10;
+  visibility: visible;
+  opacity: 0.9;
+  transform: translateX(0%);
+  transition: visibility 0s linear 0s, opacity 0.5s, transform 0.5s;
+}
+
+.burgerMenu__item {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.burgerMenu__item a {
+  color: #fff;
+}

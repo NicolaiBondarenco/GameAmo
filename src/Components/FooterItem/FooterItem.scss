@@ -1,0 +1,16 @@
+.footerItem {
+  & a {
+    font-size: 15px;
+    line-height: 37px;
+    color: #999999;
+  }
+}
+
+@media (max-width: 480px) {
+  .footerItem {
+    & a {
+      font-size: 12px;
+      line-height: 25px;
+    }
+  }
+}

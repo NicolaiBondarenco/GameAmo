@@ -1,0 +1,32 @@
+.customizeCharacterItem {
+  position: relative;
+  cursor: pointer;
+  &__innerImg {
+    position: relative;
+    z-index: 2;
+    border-radius: 20px;
+    &-image {
+      border: 6px solid transparent;
+      border-radius: 20px;
+    }
+  }
+}
+
+.customizeCharacterItem__innerImg-image.active {
+  border: 6px solid #3b3d46;
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  .customizeCharacterItem {
+    &__innerImg {
+      &-image {
+        max-width: 100%;
+        border: 5px solid transparent;
+        border-radius: 20px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+}

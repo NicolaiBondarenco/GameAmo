@@ -1,0 +1,40 @@
+.socialNetworks {
+  width: 315px;
+  display: flex;
+  justify-content: space-between;
+  left: -120px;
+  top: 520px;
+  position: absolute;
+  transform: rotate(-90deg);
+  &__item {
+    & a {
+      font-size: 11px;
+      line-height: 25px;
+      color: #80858f;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .socialNetworks {
+    max-width: 200px;
+    left: 20px;
+    top: 90px;
+    letter-spacing: 1px;
+    position: absolute;
+    transform: rotate(0deg);
+
+    &__item {
+      & a {
+        font-size: 8px;
+        line-height: 25px;
+        color: #80858f;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .socialNetworks {
+    left: 55px;
+  }
+}

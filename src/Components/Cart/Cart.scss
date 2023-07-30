@@ -1,0 +1,32 @@
+.cart {
+  position: relative;
+  cursor: pointer;
+  &__counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    border-radius: 50px;
+    position: absolute;
+    top: -11px;
+    right: -18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart {
+    & img {
+      width: 20px;
+      height: 20px;
+    }
+    &__counter {
+      right: -10px;
+      width: 15px;
+      height: 15px;
+      font-size: 8px;
+    }
+  }
+}

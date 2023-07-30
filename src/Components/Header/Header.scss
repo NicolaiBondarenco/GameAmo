@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  padding: 0 10px;
+  &__wrapper {
+    margin: 0 auto;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.cartBlock {
+  display: flex;
+  align-items: center;
+  &__btn {
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    & img {
+      width: 80px;
+    }
+  }
+  .cartBlock {
+    &__btn {
+      padding: 5px 5px;
+      font-size: 10px;
+      margin-left: 25px;
+    }
+  }
+}
