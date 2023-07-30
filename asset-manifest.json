@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GameAmo/static/css/main.d52517a2.css",
+    "main.js": "/GameAmo/static/js/main.4f0fc8c7.js",
+    "static/media/customizeCharacter.png": "/GameAmo/static/media/customizeCharacter.10842578f88dd3f9177a.png",
+    "static/media/mainImg.png": "/GameAmo/static/media/mainImg.5153cbdbbbf1cd5b1f1e.png",
+    "static/media/news1.png": "/GameAmo/static/media/news1.12f98c4c894362393c4f.png",
+    "static/media/news2.png": "/GameAmo/static/media/news2.8ed9bb49a9fba61cf2df.png",
+    "static/media/news5.png": "/GameAmo/static/media/news5.53c1a6e9c36fb0da4105.png",
+    "static/media/news4.png": "/GameAmo/static/media/news4.a1b26161cc6f5c29a7bf.png",
+    "static/media/1.png": "/GameAmo/static/media/1.d2b90ed7cf568757fb85.png",
+    "static/media/2.png": "/GameAmo/static/media/2.f2a98575f296d1456abc.png",
+    "static/media/news3.png": "/GameAmo/static/media/news3.0fd4ececee45f08bc1d3.png",
+    "static/media/3.png": "/GameAmo/static/media/3.3be0843ceb059001cfa2.png",
+    "index.html": "/GameAmo/index.html",
+    "main.d52517a2.css.map": "/GameAmo/static/css/main.d52517a2.css.map",
+    "main.4f0fc8c7.js.map": "/GameAmo/static/js/main.4f0fc8c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d52517a2.css",
+    "static/js/main.4f0fc8c7.js"
+  ]
+}
